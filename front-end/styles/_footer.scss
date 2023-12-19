@@ -1,0 +1,12 @@
+footer{
+    width: 100%;
+    .footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(175, 175, 175);
+        margin-top: 20px;
+        border-top: 1px solid grey;
+    }
+}

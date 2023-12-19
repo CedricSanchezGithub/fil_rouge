@@ -1,0 +1,23 @@
+@use "./settings" as var;
+
+nav {
+  width: 100%;
+  ul {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 1.5rem;
+    li {
+      width: 200px;
+      margin: 15px;
+      padding: 10px 15px;
+      @include border;
+      text-shadow: 1px 1px 1px rgb(8, 8, 8);
+      transition: all 0.2s ease-in-out;
+      text-align: center;
+      &:hover {
+        background: var.$color1;
+      }
+    }
+  }
+}

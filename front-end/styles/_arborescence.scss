@@ -1,0 +1,8 @@
+.arborescence{
+    display: flex;
+    justify-content: center;
+    img{
+        @include border;
+        margin-top: 50px;
+    }
+}
