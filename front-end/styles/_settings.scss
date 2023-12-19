@@ -1,27 +1,33 @@
+@font-face {
+  font-family: Marvel-Regular;
+  src: url(./font/Marvel-Regular.ttf);
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   list-style: none;
-  a{
+  a {
     text-decoration: none;
     color: white;
   }
 }
-
 body {
   background: var(--fond-dark, #141e30);
   max-width: 1200px;
   margin: 0 auto;
   height: 100vh;
+  font-family: Marvel-Regular, "Courier New", Courier, monospace;
 }
 
 $color1: #b2d6ff85;
+$font1: Marvel-Regular, "Courier New", Courier, monospace;
 
 @mixin border {
   border: 1px solid white;
   border-radius: 3px;
 }
-.hide{
+.hide {
   visibility: hidden;
 }

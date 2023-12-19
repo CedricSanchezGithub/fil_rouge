@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Marvel-Regular;
+  src: url(./font/Marvel-Regular.ttf);
+}
 * {
   padding: 0;
   margin: 0;
@@ -14,6 +18,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   height: 100vh;
+  font-family: Marvel-Regular, "Courier New", Courier, monospace;
 }
 
 .hide {
@@ -58,19 +63,25 @@ body {
 .bigContainer .accueil {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 .bigContainer .accueil h1 {
   text-align: center;
+  border-bottom: 1px solid white;
 }
-.bigContainer .accueil h1:hover img {
-  display: block;
+.bigContainer .accueil img {
+  opacity: 0;
+  transition: all 1s ease-in-out;
 }
 .bigContainer .accueil img {
   border: 1px solid white;
   border-radius: 3px;
 }
 
+@font-face {
+  font-family: Marvel-Regular;
+  src: url(./font/Marvel-Regular.ttf);
+}
 * {
   padding: 0;
   margin: 0;
@@ -88,6 +99,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   height: 100vh;
+  font-family: Marvel-Regular, "Courier New", Courier, monospace;
 }
 
 .hide {
@@ -117,6 +129,10 @@ nav ul li:hover {
   background: rgba(178, 214, 255, 0.5215686275);
 }
 
+@font-face {
+  font-family: Marvel-Regular;
+  src: url(./font/Marvel-Regular.ttf);
+}
 * {
   padding: 0;
   margin: 0;
@@ -134,6 +150,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   height: 100vh;
+  font-family: Marvel-Regular, "Courier New", Courier, monospace;
 }
 
 .hide {

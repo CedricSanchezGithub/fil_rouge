@@ -2,7 +2,7 @@
 
 const good = document.getElementById("goodAnswer");
 const bad = document.getElementById("badAnswer");
-
+const imgBagueton = document.getElementById('imgBagueton');
 // Fonction permetant d'afficher bonne réponse selon le booléen
 
 function getValue() {
@@ -21,3 +21,8 @@ function getValue() {
   event.preventDefault() // A changer car déprécié
   ;
 }
+
+imgBagueton.addEventListener('mouseover', function() {
+  imgBagueton.style.opacity = "1";
+  console.log("mouse over!");
+});
