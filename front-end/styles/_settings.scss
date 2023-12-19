@@ -26,7 +26,7 @@ $font1: Marvel-Regular, "Courier New", Courier, monospace;
 
 @mixin border {
   border: 1px solid white;
-  border-radius: 3px;
+  border-radius: 10px;
 }
 .hide {
   visibility: hidden;

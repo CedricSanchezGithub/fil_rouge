@@ -23,14 +23,18 @@
       color: red;
       opacity: 0;
     }
-
-    input {
-      padding: 10px 20px;
-      border-radius: 10px;
-      margin: 20px 0;
-
-      &:focus {
-        border: 1px solid rgb(196, 94, 94);
+    form {
+      border: none;
+      input {
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin: 20px 0;
+        border: transparent;
+        outline: none;
+        border: 3px solid transparent;
+        &:focus{
+          border: 3px solid rgb(21, 0, 255);
+        }
       }
     }
   }
@@ -42,7 +46,7 @@
       text-align: center;
       border-bottom: 1px solid white;
     }
-    img{
+    img {
       opacity: 0;
       transition: all 1s ease-in-out;
     }

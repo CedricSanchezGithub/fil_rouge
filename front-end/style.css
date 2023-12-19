@@ -52,13 +52,19 @@ body {
   color: red;
   opacity: 0;
 }
-.bigContainer .question input {
+.bigContainer .question form {
+  border: none;
+}
+.bigContainer .question form input {
   padding: 10px 20px;
   border-radius: 10px;
   margin: 20px 0;
+  border: transparent;
+  outline: none;
+  border: 3px solid transparent;
 }
-.bigContainer .question input:focus {
-  border: 1px solid rgb(196, 94, 94);
+.bigContainer .question form input:focus {
+  border: 3px solid rgb(21, 0, 255);
 }
 .bigContainer .accueil {
   display: flex;
@@ -75,7 +81,7 @@ body {
 }
 .bigContainer .accueil img {
   border: 1px solid white;
-  border-radius: 3px;
+  border-radius: 10px;
 }
 
 @font-face {
@@ -120,7 +126,7 @@ nav ul li {
   margin: 15px;
   padding: 10px 15px;
   border: 1px solid white;
-  border-radius: 3px;
+  border-radius: 10px;
   text-shadow: 1px 1px 1px rgb(8, 8, 8);
   transition: all 0.2s ease-in-out;
   text-align: center;
@@ -161,8 +167,9 @@ body {
   color: whitesmoke;
   margin: 50px;
   padding: 50px;
+  padding-bottom: 100px;
   border: 1px solid white;
-  border-radius: 3px;
+  border-radius: 10px;
 }
 .contexte h1 {
   font-size: 1.5rem;
@@ -183,7 +190,7 @@ body {
 }
 .arborescence img {
   border: 1px solid white;
-  border-radius: 3px;
+  border-radius: 10px;
   margin-top: 50px;
 }
 
@@ -194,7 +201,7 @@ body {
 }
 .usecaseImg img {
   border: 1px solid white;
-  border-radius: 3px;
+  border-radius: 10px;
 }
 
 footer {
