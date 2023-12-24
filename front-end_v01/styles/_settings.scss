@@ -3,6 +3,11 @@
   src: url(./font/Marvel-Regular.ttf);
 }
 
+$bg: #FFF4E7;
+$bg-inside: #EBD5B8;
+$bg-dark: #4D3522;
+$font1: Marvel-Regular, "Courier New", Courier, monospace;
+
 * {
   padding: 0;
   margin: 0;
@@ -10,22 +15,19 @@
   list-style: none;
   a {
     text-decoration: none;
-    color: white;
+    color: $bg-dark;
+    font-weight: bold;
   }
 }
 body {
-  background: var(--fond-dark, #141e30);
+  background: $bg;
   max-width: 1200px;
   margin: 0 auto;
   height: 100%;
   font-family: Marvel-Regular, "Courier New", Courier, monospace;
 }
 
-$color1: #b2d6ff85;
-$font1: Marvel-Regular, "Courier New", Courier, monospace;
-
 @mixin border {
-  border: 1px solid white;
   border-radius: 10px;
 }
 .hide {
