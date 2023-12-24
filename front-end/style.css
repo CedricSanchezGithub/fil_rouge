@@ -10,11 +10,41 @@
 }
 * a {
   text-decoration: none;
-  color: white;
+  color: #4D3522;
+  font-weight: bold;
 }
 
 body {
-  background: var(--fond-dark, #141e30);
+  background: #FFF4E7;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  font-family: Marvel-Regular, "Courier New", Courier, monospace;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+@font-face {
+  font-family: Marvel-Regular;
+  src: url(./font/Marvel-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+* a {
+  text-decoration: none;
+  color: #4D3522;
+  font-weight: bold;
+}
+
+body {
+  background: #FFF4E7;
   max-width: 1200px;
   margin: 0 auto;
   height: 100%;
@@ -28,7 +58,7 @@ body {
 .bigContainer {
   max-width: 1200px;
   margin: 0 auto;
-  color: white;
+  color: #4D3522;
 }
 .bigContainer .logoContainer {
   width: 100%;
@@ -64,7 +94,7 @@ body {
   border: 3px solid transparent;
 }
 .bigContainer .question form input:focus {
-  border: 3px solid rgb(21, 0, 255);
+  border: 3px solid #4D3522;
 }
 .bigContainer .accueil {
   display: flex;
@@ -73,15 +103,13 @@ body {
 }
 .bigContainer .accueil h1 {
   text-align: center;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #4D3522;
 }
 .bigContainer .accueil img {
   opacity: 0;
   transition: all 1s ease-in-out;
-}
-.bigContainer .accueil img {
-  border: 1px solid white;
   border-radius: 10px;
+  box-shadow: 0px 0 10px 1px black;
 }
 
 @font-face {
@@ -97,11 +125,12 @@ body {
 
 * a {
   text-decoration: none;
-  color: white;
+  color: #4D3522;
+  font-weight: bold;
 }
 
 body {
-  background: var(--fond-dark, #141e30);
+  background: #FFF4E7;
   max-width: 1200px;
   margin: 0 auto;
   height: 100%;
@@ -121,18 +150,20 @@ nav ul {
   justify-content: center;
   font-size: 1.5rem;
 }
+nav ul a:hover {
+  color: #FFF4E7;
+}
 nav ul li {
   width: 200px;
   margin: 15px;
   padding: 10px 15px;
-  border: 1px solid white;
   border-radius: 10px;
-  text-shadow: 1px 1px 1px rgb(8, 8, 8);
   transition: all 0.2s ease-in-out;
   text-align: center;
+  background: #EBD5B8;
 }
 nav ul li:hover {
-  background: rgba(178, 214, 255, 0.5215686275);
+  background: #4D3522;
 }
 
 @font-face {
@@ -148,11 +179,12 @@ nav ul li:hover {
 
 * a {
   text-decoration: none;
-  color: white;
+  color: #4D3522;
+  font-weight: bold;
 }
 
 body {
-  background: var(--fond-dark, #141e30);
+  background: #FFF4E7;
   max-width: 1200px;
   margin: 0 auto;
   height: 100%;
@@ -164,16 +196,16 @@ body {
 }
 
 .contexte {
-  color: whitesmoke;
+  color: #4D3522;
   margin: 50px;
   padding: 50px;
   padding-bottom: 100px;
-  border: 1px solid white;
+  font-weight: bold;
   border-radius: 10px;
 }
 .contexte h1 {
   font-size: 1.5rem;
-  border-bottom: 1px solid whitesmoke;
+  border-bottom: 1px solid #4D3522;
   width: 200px;
   margin: 0 auto;
   margin-bottom: 50px;
@@ -189,7 +221,6 @@ body {
   justify-content: center;
 }
 .arborescence img {
-  border: 1px solid white;
   border-radius: 10px;
   margin-top: 50px;
 }
@@ -200,7 +231,6 @@ body {
   margin-top: 50px;
 }
 .usecaseImg img {
-  border: 1px solid white;
   border-radius: 10px;
 }
 
